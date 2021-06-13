@@ -25,17 +25,17 @@ footer, header, hgroup, menu, nav, section {
 }
 html {
     width: 100%;
-  height: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 body {
     width: 100%;
-  height: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     line-height: 1;
-    min-width: 380px;
+    min-width: 350px;
 }
 ol, ul {
     list-style: none;
@@ -113,7 +113,6 @@ table {
     .main_content {
         margin-top: -265px;
         max-width: 550px;
-        padding-bottom: 30px;
     }
     .main_banner {
         background: linear-gradient(2.76deg, #FDFAF8 11.68%, rgba(255, 255, 255, 0) 80.51%);
@@ -177,6 +176,11 @@ table {
     max-width: 600px;
 
 }
+@media (max-width: 612px){
+    .h1 {
+        font-size: 24px;
+    }
+}
 .h1 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -186,6 +190,11 @@ table {
     text-align: center;
     color: #000000;
 }
+@media (max-width: 612px){
+    .h1 {
+        font-size: 24px;
+    }
+}
 .h1_description {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -194,6 +203,11 @@ table {
     line-height: 30px;
     text-align: center;
     color: #000000;
+}
+@media (max-width: 612px){
+    .h1_description {
+        font-size: 16px;
+    }
 }
 .h1_button {
     font-family: 'Poppins', sans-serif;
@@ -440,7 +454,7 @@ table {
 }
 @media(max-width: 618px){
     .slider {
-        max-width: 350px;
+        max-width: 300px;
     }
 }
 .slider_item-image {
